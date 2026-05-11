@@ -1,0 +1,46 @@
+/*
+    Riwaq Code Theme - Day
+    Warm sand-toned light code theme
+*/
+
+.cm-s-inner.CodeMirror, .cm-s-inner .CodeMirror-gutters {
+  background: #faf6ee !important;
+  color: #2d2a24 !important;
+}
+
+.cm-s-inner .CodeMirror-cursor {
+  border-left: solid thin #b8860b !important;
+}
+
+.cm-s-inner .CodeMirror-line::selection, .cm-s-inner .CodeMirror-line > span::selection, .cm-s-inner .CodeMirror-line > span > span::selection { background: #e8dcc8; }
+
+.cm-s-inner .CodeMirror-line::-moz-selection, .cm-s-inner .CodeMirror-line > span::-moz-selection, .cm-s-inner .CodeMirror-line > span > span::-moz-selection { background: #e8dcc8; }
+
+.cm-s-inner .CodeMirror-gutters { background: #faf6ee; border-right: 0px; }
+.cm-s-inner .CodeMirror-guttermarker { color: #b8860b; }
+.cm-s-inner .CodeMirror-guttermarker-subtle { color: #b8a88a; }
+.cm-s-inner .CodeMirror-linenumber { color: #b8a88a; }
+
+.cm-s-inner span.cm-comment { color: #9a8a6a; }
+.cm-s-inner span.cm-atom { color: #8a6080; }
+.cm-s-inner span.cm-meta { color: inherit; }
+.cm-s-inner span.cm-number { color: #8a6080; }
+
+.cm-s-inner span.cm-property, .cm-s-inner span.cm-attribute { color: #4a8040; }
+.cm-s-inner span.cm-keyword { color: #b8860b; }
+.cm-s-inner span.cm-string { color: #8a6a20; }
+
+.cm-s-inner span.cm-variable { color: #4a8040; }
+.cm-s-inner span.cm-variable-2 { color: #2a6080; }
+.cm-s-inner span.cm-def { color: #6a4080; }
+.cm-s-inner span.cm-bracket { color: #2d2a24; }
+.cm-s-inner span.cm-tag { color: #b8860b; }
+.cm-s-inner span.cm-link { color: #8a6080; }
+.cm-s-inner span.cm-error { background: #cc3300; color: #faf6ee; }
+
+.cm-s-inner .CodeMirror-activeline-background { background: #f0e8d4; }
+.cm-s-inner .CodeMirror-matchingbracket { text-decoration: underline; color: #8a6080 !important; }
+
+.CodeMirror-selectedtext, .CodeMirror-selected {
+  background: #e8dcc8 !important;
+}

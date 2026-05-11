@@ -1,0 +1,87 @@
+/* 
+  Riwaq (رواق) - Day
+  Typora RTL theme
+  Font: Thmanyah by Thmanyah
+  Inspired by the elegance of Arabic architectural porticos
+*/
+
+@import url("./riwaq-night.css");
+@import url("./riwaq/code-3024-day.css");
+
+/** ROOT VARIABLES **/
+:root {
+  --bg-color: #faf6ee;
+  --text-color: #2d2a24;
+  --md-char-color: #b8a88a;
+  --meta-content-color: #8a7d6b;
+  --link-color: #b8860b;
+
+  --primary-color: #b8860b;
+  --primary-btn-border-color: #96700a;
+  --primary-btn-text-color: #fff;
+  --accent-color: #e8dcc8;
+
+  --window-border: 1px solid #d4c8a8;
+
+  --active-file-bg-color: #2d2a24;
+  --active-file-text-color: #faf6ee;
+  --active-file-border-color: #b8860b;
+  --active-search-item-bg-color: #e8dcc8;
+
+  --side-bar-bg-color: #2d2a24;
+  --item-hover-bg-color: #3d3a34;
+  --item-hover-text-color: #faf6ee;
+  --search-hit-bg-color: #b8860b30;
+  --search-select-text-color: var(--text-color);
+  --search-select-bg-color: #b8860b60;
+  --rawblock-edit-panel-bd: var(--accent-color);
+  --monospace: "Cousine";
+
+  --megamenu-bg-color: var(--bg-color);
+  --megamenu-sidebar-bg-color: var(--side-bar-bg-color);
+  --megamenu-sidebar-hover-bg-color: #3d3a34;
+  --megamenu-sidebar-active-bg-color: #1d1a14;
+  --megamenu-button-border-color: #9292928f;
+  --megamenu-item-hover-bg-color: #e8dcc8;
+  --megamenu-item-hover-text-color: #2d2a24;
+}
+
+/** TAGS **/
+
+mark {
+  background: #b8860b30;
+  color: #6b4f00;
+}
+
+code {
+  background: #e8dcc8;
+  border-color: #d4c8a8;
+  color: #2d2a24;
+}
+
+thead {
+  background: #e8dcc8;
+}
+
+th {
+  color: #2d2a24;
+}
+
+table tr:nth-child(2n) {
+  background: #f0e8d4;
+}
+
+sup.md-footnote {
+  background: #e8dcc8;
+  color: #2d2a24;
+}
+
+/* Sidebar */
+#typora-sidebar * {
+  color: var(--bg-color);
+}
+
+/* Windows Unibody sidebar */
+#megamenu-menu-sidebar, .megamenu-menu-list li:not(.saved) a:not(.active):hover, .megamenu-menu-list li a.active {
+  color: var(--bg-color) !important;
+}
