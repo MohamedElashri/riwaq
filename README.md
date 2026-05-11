@@ -1,4 +1,4 @@
-# رواق Riwaq: Typora RTL Theme
+# Riwaq (رواق): Typora RTL Theme
 
 A dark/light Arabic RTL theme for Typora, inspired by the elegance of Middle Eastern architectural porticos. Uses the **Thmanyah** font family (Sans, Serif Text, Serif Display).
 
