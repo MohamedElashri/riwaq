@@ -4,9 +4,19 @@ A dark/light Arabic RTL theme for Typora, inspired by the elegance of Middle Eas
 
 ## Preview
 
+
+<div align="center">
+  <img src="./img/riwaq_dark.png" width="48%" alt="Riwaq Night" />
+  <img src="./img/riwaq_light.png" width="48%" alt="Riwaq Day" />
+</div>
+
 | Night | Day |
 |-------|-----|
 | Deep navy `#1a1a2e` with warm gold accents | Warm cream `#faf6ee` with deep gold accents |
+
+
+
+>  Designed and tested on macOS and Linux. Not fully tested, but should work for Windows. But this theme does not include styles for Windows “unibody” style.
 
 ## Install
 
